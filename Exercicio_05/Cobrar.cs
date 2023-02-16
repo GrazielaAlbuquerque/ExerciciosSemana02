@@ -17,13 +17,13 @@ namespace Exercicio_05
 
     private decimal CalcularMulta()
     {
-        decimal SomaValor = (Valor = Multa);
+        decimal SomaValor = (Valor + Multa);
         return SomaValor;
     }
-    public Calcular ()
+    public void Calcular ()
     {
-        decimal Calcular = (Valor = Multa);
-        Calcular = Console.WriteLine($"Valor Cobrado {Valor}, Multa {Multa}, Soma Valor {SomaValor}");
+        decimal CalcularMulta = (Valor + Multa);
+        CalcularMulta = Console.WriteLine($"Valor Cobrado {Valor}, Multa {Multa}, Soma Valor {SomaValor}");
     }
     
     }
