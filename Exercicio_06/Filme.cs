@@ -9,16 +9,16 @@ namespace Exercicio_06
     {
         public string NomeFilme { get; set;}
         public string CategoriaFilme { get; set;}
-        {
-            Console.WriteLine("O nome do filme de hoje é {nome}");
-        }
-        public static void Categoria(string categoria);
-        {
-            Console.WriteLine("Este filme é um(a) {categoria}");
-            }
+
+        public string Filme(string NomeFilme, string CategoriaFilme)
+    {
+        this.nomeFilme = NomeFilme;
+        this.categoriaFilme = CategoriaFilme;
+        return = (Console.WriteLine("O Filme é {nome}"))
+
     }
 }
-
+}
 /*Detalhes da classe
 
 Propriedades

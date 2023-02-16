@@ -1,8 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Estamos muito animados para nossa sessão de cinema hoje!");
+﻿using Exercicio_06;
 
-Exercicio_06.Filme.NomeFilme();
-Exercicio_06.Filme.Categoria();
+Filme infoFilme = new Filme ("Noivas em Guerra Comédia Romantica");
+FileMode.infoFilme();
 
 
 
