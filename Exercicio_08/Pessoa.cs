@@ -10,15 +10,20 @@ namespace Exercicio_08
         public string Nome {get; set;}
         public DateTime DataNascimento {get; set;}
 
-        public MostraIdade(){
-        var dataNascimento = new DateTime(1984, 1, 2);
+        public void MostraIdade(){
+            int idade = CalcularIdade();
+            Console.WriteLine($"Nome {Nome} e tem {DataNascimento} anos");
+        } 
+      
+    private int CalcularIdade(){
         var dataAtual = DateTime.Now;
-        var idade = dataAtual.Year - dataNascimento.Year;
-        if (dataNascimento > dataAtual.AddYears(-idade))
+        var idade = dataAtual.Year - DataNascimento.Year;
+        if (DataNascimento > dataAtual.AddYears(-idade))
         {
     idade--;
+    }
+    return idade;
 }       
         }
 
     }
-}
