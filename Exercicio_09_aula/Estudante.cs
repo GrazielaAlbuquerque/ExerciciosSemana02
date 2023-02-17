@@ -18,7 +18,7 @@ namespace Exercicio_09_aula
 
         public void ImprimirMaiorNota()
         {
-            Console.WriteLine($"m")
+            Console.WriteLine($"Materia {Materia} Nota {Nota}");
         }
     }
 }

@@ -1,2 +1,4 @@
-﻿Exercicio_09_aula.Estudante estudante = new Exercicio_09_aula.Estudante("geografia", 8);
+﻿using Exercicio_09_aula;
 
+Estudante estudante = new Estudante("Programação", 5);
+estudante.ImprimirMaiorNota();
